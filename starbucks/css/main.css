@@ -47,7 +47,10 @@ img{
     color: #fff;
 }
 
-.btn.btn--reverse:hover
+.btn.btn--reverse:hover{
+    background-color: transparent;
+    color: #333;
+}
 
 /* HEADER */
 header{
@@ -62,6 +65,7 @@ header{
 
 header > .inner{
     height: 120px;
+    
 }
 
 header .logo{
