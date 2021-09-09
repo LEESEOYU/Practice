@@ -36,3 +36,11 @@ window. addEventListener('scroll',_.throttle(function(){
 }, 300));
 
 //_.throttle(함수, 시간 (밀리세컨드)))
+
+const fadeEls = document.querySelectorAll('.visual .fade-in');
+fadeEls.forEach(function(fadeEls, index){
+    gsap.to(fadeEls, 1,{
+        delay: (index + 1) * .7,
+        opacity: 1
+    });
+});
