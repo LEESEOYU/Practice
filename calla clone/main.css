@@ -1,0 +1,25 @@
+.logo{
+    margin-top: 100px;
+}
+
+.logo_box{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.sub_title{
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+.composer{
+    text-align: center;
+}
