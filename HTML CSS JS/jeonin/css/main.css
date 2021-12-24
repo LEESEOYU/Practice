@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.choice-form{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    border: 30px solid #dddddd;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    color: grey;
+}
